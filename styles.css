@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    text-align: center;
+    background-color: indigo;
+}
+h1{
+    color: white;
+}
+#contenedor{
+    
+    display: flex;
+    width: auto;
+    height: auto;
+    background-color: darkorchid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#cartas{
+    background-color: blueviolet;
+    width: 480px;
+    height: 500px;
+    margin: 5px;
+    align-content: center;
+}
